@@ -1,5 +1,5 @@
 # Hi, I'm Adrian Peiris.👋🏻
-<h3 align="center">A CSci Undergraduate from LNBTI.</h3>
+<h3 align="center">A CS Undergraduate from LNBTI.</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=adrianpeiris&label=Profile%20views&color=0e75b6&style=flat" alt="adrianpeiris" /> </p>
 </p>
 <p>🌱 I’m currently learning Android</p>
@@ -9,18 +9,19 @@
 
 ## Connect with me
 <p align="left">
-<a href="https://x.com/adrian_peiris" target="blank">
-  <img align="center" src="https://toppng.com/uploads/preview/twitter-x-new-logo-icon-png-11692480121koxvq54was.webp" alt="adrian_peiris" height="30" width="30" />
-</a>
-<a href="https://linkedin.com/in/adrian-peiris-004728209" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="adrian-peiris-004728209" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/21058739/adrian-peiris" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="adrian-peiris" height="30" width="40" /></a>
 <a href="https://codesandbox.com/adrianpeiris" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="adrianpeiris" height="30" width="40" /></a>
 <a href="https://www.facebook.com/profile.php?id=100011383472137&mibextid=ZbWKwL" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="adrian peiris" height="30" width="40" /></a>
-<a href="https://instagram.com/adrian.peiris" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="adrian.peiris" height="30" width="40" /></a>
-<a href="https://www.youtube.com/@adrianpeiris01/videos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="adrianpeiris01" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/adrianpeiris14" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="adrianpeiris14" height="30" width="40" /></a>
 <a href="https://auth.geeksforgeeks.org/user/adrianpe9yyo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="adrianpe9yyo" height="30" width="40" /></a>
+<a href="https://instagram.com/adrian.peiris" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="adrian.peiris" height="30" width="40" /></a>
+  <a href="https://www.leetcode.com/adrianpeiris14" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="adrianpeiris14" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/adrian-peiris-004728209" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="adrian-peiris-004728209" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/21058739/adrian-peiris" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="adrian-peiris" height="30" width="40" /></a>
+<a href="https://x.com/adrian_peiris" target="blank">
+<img align="center" src="https://toppng.com/uploads/preview/twitter-x-new-logo-icon-png-11692480121koxvq54was.webp" alt="adrian_peiris" height="30" width="30" /></a>
+<a href="https://www.youtube.com/@adrianpeiris01/videos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="adrianpeiris01" height="30" width="40" /></a>
+
 </p>
+
 
 ## Languages and Tools
 <p align="left"> 
