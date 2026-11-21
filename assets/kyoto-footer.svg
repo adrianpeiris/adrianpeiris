@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">Kyoto skyline footer</title>
+  <desc id="desc">A slim neon twilight panorama echoing the Kyoto header, with pagoda roofs, Kyoto Tower, a torii gate, lanterns, drifting cherry blossom petals and shimmering river reflections.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#090d2c"/><stop offset=".48" stop-color="#07516b"/><stop offset="1" stop-color="#48206d"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#123b59"/><stop offset="1" stop-color="#091326"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .light{animation:pulse 2.8s ease-in-out infinite alternate}
+      .light:nth-child(2n){animation-delay:1.2s}
+      .petal{animation:fall 8s linear infinite;transform-box:fill-box;transform-origin:center}
+      .petal:nth-child(2){animation-delay:-3s}.petal:nth-child(3){animation-delay:-5s}
+      .ripple{animation:shimmer 4s ease-in-out infinite alternate}
+      @keyframes pulse{from{opacity:.35}to{opacity:1}}
+      @keyframes fall{0%{transform:translateY(-18px) rotate(0);opacity:0}15%{opacity:.9}100%{transform:translate(40px,170px) rotate(360deg);opacity:0}}
+      @keyframes shimmer{from{opacity:.2;transform:translateX(-8px)}to{opacity:.8;transform:translateX(12px)}}
+      @media(prefers-reduced-motion:reduce){.light,.petal,.ripple{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="150" rx="12" fill="url(#sky)"/>
+  <circle cx="1060" cy="38" r="19" fill="#f6b7dc" opacity=".9" filter="url(#glow)"/>
+  <path d="M0 93 100 56l90 32 120-52 105 48 110-39 95 43 125-54 105 47 110-40 120 46 120-38v59H0Z" fill="#182f4d" opacity=".92"/>
+  <path d="M0 106 135 81l105 23 120-35 120 36 130-31 120 32 130-39 115 40 125-30 100 29v14H0Z" fill="#203d59"/>
+  <g fill="#0a172b" stroke="#3c7890" stroke-width="1.5">
+    <path d="M0 103V70h75l18 12 18-12h74v33zM-8 71l101-35 102 35Z"/>
+    <path d="M870 105V76h82l16 10 16-10h92v29zM858 77l110-39 118 39Z"/>
+    <path d="M535 105V72h34v33zM527 73l25-20 25 20zM542 53v-13h20v13zM549 40l3-12 3 12z" stroke="#82e8ff" stroke-width="2"/>
+  </g>
+  <g stroke="#ff6d9f" stroke-width="3.5" fill="none" filter="url(#glow)">
+    <path d="M770 84h62M763 90h76M779 90v31M823 90v31"/>
+  </g>
+  <g fill="#ffd38a" class="light" filter="url(#glow)">
+    <circle cx="65" cy="91" r="3"/><circle cx="125" cy="94" r="2.5"/><circle cx="930" cy="95" r="3"/><circle cx="1000" cy="92" r="2.5"/>
+  </g>
+  <path d="M0 116q180-12 360 0t360 0 480 0v34H0Z" fill="url(#river)"/>
+  <g class="ripple" stroke="#65d9f2" stroke-width="1.5" stroke-linecap="round">
+    <path d="M70 130h115m75 8h75m115-9h140m100 9h95m90-10h120m30 10h70" opacity=".65"/>
+  </g>
+  <g fill="#ffb9dc">
+    <path class="petal" d="M240 22q-8-10 1-15 9 6-1 15Z"/>
+    <path class="petal" d="M680 12q-8-10 1-15 9 6-1 15Z"/>
+    <path class="petal" d="M920 28q-8-10 1-15 9 6-1 15Z"/>
+  </g>
+  <path d="M0 149h1200" stroke="#00d4ff" stroke-opacity=".7" stroke-width="1"/>
+</svg>

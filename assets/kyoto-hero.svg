@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Adrian Peiris — Kyoto After Dark</title>
+  <desc id="desc">An animated night-time Kyoto cityscape with Yasaka-style pagoda, Kyoto Tower, traditional rooftops, a torii gate, cherry blossom petals, lanterns, a passing train, distant mountains, and a glowing moon.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d2b"/><stop offset=".42" stop-color="#102d50"/><stop offset=".76" stop-color="#31245d"/><stop offset="1" stop-color="#5b286d"/>
+    </linearGradient>
+    <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#173b5a" stop-opacity="0"/><stop offset="1" stop-color="#071426" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff4d6"/><stop offset="1" stop-color="#f6a9d4"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8deaff"/><stop offset="1" stop-color="#5482ff"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#163e62"/><stop offset="1" stop-color="#081326"/>
+    </linearGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="neonGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .star{fill:#e5f7ff;animation:twinkle 3.8s ease-in-out infinite alternate}
+      .star:nth-of-type(2n){animation-delay:1.6s}
+      .cloud{animation:cloudDrift 34s linear infinite}
+      .cloud.slow{animation-duration:48s;animation-direction:reverse}
+      .petal{fill:#ffb4d8;opacity:.85;transform-box:fill-box;transform-origin:center;animation:petalFall 10s linear infinite}
+      .petal.p2{animation-delay:-3s;animation-duration:12s}
+      .petal.p3{animation-delay:-6s;animation-duration:9s}
+      .petal.p4{animation-delay:-8s;animation-duration:13s}
+      .lantern{animation:lanternPulse 2.5s ease-in-out infinite alternate}
+      .lantern.l2{animation-delay:1.1s}
+      .waterline{animation:waterShimmer 4s ease-in-out infinite alternate}
+      .train{animation:trainPass 18s linear infinite}
+      .window{fill:#ffd38a;filter:url(#softGlow)}
+      @keyframes twinkle{from{opacity:.2}to{opacity:1}}
+      @keyframes cloudDrift{from{transform:translateX(-180px)}to{transform:translateX(1320px)}}
+      @keyframes petalFall{0%{transform:translate(0,-25px) rotate(0deg);opacity:0}12%{opacity:.9}85%{opacity:.8}100%{transform:translate(85px,390px) rotate(540deg);opacity:0}}
+      @keyframes lanternPulse{from{opacity:.55}to{opacity:1}}
+      @keyframes waterShimmer{from{opacity:.25;transform:translateX(-12px)}to{opacity:.85;transform:translateX(18px)}}
+      @keyframes trainPass{0%{transform:translateX(-420px)}12%{transform:translateX(0)}72%{transform:translateX(0)}100%{transform:translateX(900px)}}
+      @media(prefers-reduced-motion:reduce){.star,.cloud,.petal,.lantern,.waterline,.train{animation:none}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="18" fill="url(#sky)"/>
+  <circle cx="1000" cy="76" r="34" fill="#f7a9d5" opacity=".18" filter="url(#softGlow)"/>
+  <circle cx="1000" cy="76" r="25" fill="url(#moon)"/>
+  <path d="M0 206Q175 132 315 191T610 178T900 180T1200 148V360H0Z" fill="#142b49" opacity=".88"/>
+  <path d="M0 230 130 174 226 213 365 145 474 211 594 163 714 215 842 155 962 209 1090 156 1200 193V360H0Z" fill="#1b3554"/>
+  <path d="M0 255 152 214 260 245 388 194 515 252 640 206 760 247 880 198 1000 247 1110 207 1200 235V360H0Z" fill="#203b58" opacity=".75"/>
+  <g class="cloud" opacity=".22" fill="#a7c8ed">
+    <path d="M-100 112q34-30 72 0 30-40 76-5 38-10 55 18H-100Z"/>
+  </g>
+  <g class="cloud slow" opacity=".15" fill="#d4b5ef">
+    <path d="M220 135q32-28 67 0 28-36 68-4 36-7 54 17H220Z"/>
+  </g>
+  <g>
+    <circle class="star" cx="90" cy="68" r="1.8"/><circle class="star" cx="180" cy="112" r="1.2"/>
+    <circle class="star" cx="300" cy="53" r="1.5"/><circle class="star" cx="438" cy="91" r="1.3"/>
+    <circle class="star" cx="555" cy="48" r="1.7"/><circle class="star" cx="685" cy="104" r="1.2"/>
+    <circle class="star" cx="790" cy="57" r="1.6"/><circle class="star" cx="900" cy="122" r="1.3"/>
+    <circle class="star" cx="1100" cy="42" r="1.5"/><circle class="star" cx="1145" cy="128" r="1.2"/>
+  </g>
+
+  <!-- Kyoto Tower silhouette -->
+  <g transform="translate(170 145)">
+    <path d="M24 0 34 0 42 20 38 20 44 90H14L20 20H16Z" fill="url(#tower)" opacity=".92"/>
+    <path d="M17 28h24M15 45h30M13 65h34" stroke="#d5f7ff" stroke-width="2" opacity=".85"/>
+    <path d="M24 0 29-15 34 0" fill="none" stroke="#9beeff" stroke-width="2"/>
+    <rect x="8" y="90" width="42" height="5" rx="2" fill="#71c9ff"/>
+    <path d="M0 100h58" stroke="#5cbce9" stroke-width="2" opacity=".65"/>
+  </g>
+
+  <!-- Traditional machiya rooftops -->
+  <g fill="#0b192b" stroke="#365a78" stroke-width="2">
+    <path d="M0 259v-54h94l22 16 22-16h75v54z"/>
+    <path d="m-8 207 102-38 104 38H-8Z"/>
+    <path d="M918 260v-60h82l24 17 23-17h153v60z"/>
+    <path d="m906 202 96-42 110 42H906Z"/>
+    <path d="M300 257v-35h82v35zM285 224l56-28 58 28z"/>
+  </g>
+  <g fill="#6fd7f0" opacity=".7">
+    <rect x="32" y="226" width="8" height="15"/><rect x="64" y="226" width="8" height="15"/>
+    <rect x="156" y="229" width="8" height="13"/><rect x="950" y="220" width="8" height="15"/>
+    <rect x="982" y="220" width="8" height="15"/><rect x="1080" y="226" width="8" height="14"/>
+  </g>
+
+  <!-- Yasaka-style five-storey pagoda -->
+  <g transform="translate(545 95)" stroke="#8deaff" stroke-width="2.5" stroke-linejoin="round" filter="url(#neonGlow)">
+    <path d="M52 35v173M68 35v173" stroke="#6bdcf5" opacity=".9"/>
+    <path d="M60 0v35M54 0h12M57 0l3-13 3 13" fill="none"/>
+    <path d="M36 39h48l-24-17zM28 73h64L60 53zM20 108h80L60 87zM12 145h96L60 123zM5 181h110L60 158z" fill="#12253e"/>
+    <path d="M36 39h48M28 73h64M20 108h80M12 145h96M5 181h110" fill="none"/>
+    <path d="M42 39v34M78 39v34M34 73v35M86 73v35M26 108v37M94 108v37M18 145v36M102 145v36" opacity=".8"/>
+    <path d="M0 208h120" stroke="#7ee4f5" stroke-width="3"/>
+  </g>
+
+  <!-- Yasaka shrine torii gate -->
+  <g transform="translate(835 190)" stroke="#ff668f" stroke-width="6" fill="none" stroke-linecap="round" filter="url(#softGlow)">
+    <path d="M0 0h112M-12 8h136M18 8v82M94 8v82" />
+    <path d="M-8 0q56-15 128 0" stroke-width="3"/>
+  </g>
+
+  <!-- river and reflections -->
+  <path d="M0 285Q250 263 480 286T900 280T1200 278V360H0Z" fill="url(#river)"/>
+  <path d="M0 286Q250 264 480 287T900 281T1200 279" fill="none" stroke="#6ccbe9" stroke-width="2" opacity=".45"/>
+  <g class="waterline" stroke-linecap="round">
+    <path d="M80 316h130M245 331h82M400 309h118M705 323h160M930 310h94M1060 334h85" stroke="#6ccbe9" stroke-width="2" opacity=".55"/>
+    <path d="M160 345h65M570 340h92M865 346h76" stroke="#b48aff" stroke-width="2" opacity=".5"/>
+  </g>
+
+  <!-- warm lanterns -->
+  <g filter="url(#softGlow)">
+    <g class="lantern"><path d="M250 244v8" stroke="#ffc77f" stroke-width="2"/><ellipse cx="250" cy="260" rx="8" ry="11" fill="#ffb65e"/><path d="M246 250h8M246 269h8" stroke="#ffe1a8" stroke-width="1.5"/></g>
+    <g class="lantern l2"><path d="M950 246v8" stroke="#ffc77f" stroke-width="2"/><ellipse cx="950" cy="260" rx="8" ry="11" fill="#ffb65e"/><path d="M946 250h8M946 269h8" stroke="#ffe1a8" stroke-width="1.5"/></g>
+  </g>
+
+  <!-- little evening train gliding across the city -->
+  <g class="train" transform="translate(0 0)">
+    <path d="M-300 268h270q18 0 18 18v20h-288z" fill="#152e4d" stroke="#74d9f4" stroke-width="2"/>
+    <path d="M-285 273h42v18h-42zM-230 273h42v18h-42zM-175 273h42v18h-42z" fill="#a9ecff" opacity=".85"/>
+    <path d="M-300 300h288" stroke="#ffb65e" stroke-width="3"/>
+    <circle cx="-260" cy="308" r="7" fill="#081426" stroke="#78d8ed" stroke-width="2"/>
+    <circle cx="-45" cy="308" r="7" fill="#081426" stroke="#78d8ed" stroke-width="2"/>
+  </g>
+
+  <!-- drifting sakura petals -->
+  <g>
+    <path class="petal" d="M110 120q-10-12 1-18 11 7-1 18Z"/>
+    <path class="petal p2" d="M400 72q-10-12 1-18 11 7-1 18Z"/>
+    <path class="petal p3" d="M760 120q-10-12 1-18 11 7-1 18Z"/>
+    <path class="petal p4" d="M1080 150q-10-12 1-18 11 7-1 18Z"/>
+  </g>
+
+  <path d="M0 0h1200v360H0Z" fill="url(#horizon)" opacity=".2"/>
+  <text x="58" y="310" fill="#f4f8ff" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="4">ADRIAN PEIRIS</text>
+  <path d="M58 320h180" stroke="#00d4ff" stroke-width="2.5"/>
+  <text x="58" y="342" fill="#a9d9f2" font-family="Arial, sans-serif" font-size="10" letter-spacing="2.2">KYOTO, JAPAN  ·  BUILDING SOFTWARE &amp; AI</text>
+</svg>
