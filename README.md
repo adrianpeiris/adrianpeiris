@@ -30,7 +30,7 @@ interests: [Software Engineering, AI, Full-Stack, Backend Architecture]
 
 I'm a Computer Science graduate pursuing postgraduate studies in Artificial Intelligence in Kyoto, Japan. I enjoy designing and building practical software, exploring how systems work under the hood, and applying new technologies to solve real problems.
 
-My experience spans full-stack development, application support, database-backed systems, and collaborative software projects.
+My experience spans full-stack development, application support, database-backed systems and collaborative software projects.
 
 ## <img src="https://img.shields.io/badge/02-TECH%20STACK-7B2FF7?style=for-the-badge&labelColor=161B22" alt="02 Tech stack" />
 
@@ -83,6 +83,6 @@ My experience spans full-stack development, application support, database-backed
 
 <img width="100%" src="https://raw.githubusercontent.com/adrianpeiris/adrianpeiris/main/assets/kyoto-footer.svg" alt="Animated Kyoto twilight skyline with pagoda rooftops, torii gate, lanterns, cherry blossom petals and river reflections" />
 
-<sub>DESIGNED & BUILT BY ADRIAN PEIRIS · 2026</sub>
+<sub>ADRIAN PEIRIS · 2026</sub>
 
 </div>
