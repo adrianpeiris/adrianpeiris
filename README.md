@@ -50,7 +50,35 @@ My experience spans full-stack development, application support, database-backed
 
 </div>
 
-## <img src="https://img.shields.io/badge/03-CURRENT%20FOCUS-7B2FF7?style=for-the-badge&labelColor=161B22" alt="04 Current focus" />
+## <img src="https://img.shields.io/badge/03-CURRENTLY%20LEARNING-00D4FF?style=for-the-badge&labelColor=161B22" alt="03 Currently learning" />
+
+I'm continuously expanding my toolkit and exploring technologies used in modern software and AI engineering. These are learning interests, not a claim of professional proficiency.
+
+<div align="center">
+
+**PROGRAMMING LANGUAGES**
+
+<img src="https://skillicons.dev/icons?i=go,rust,ruby,kotlin,swift&theme=dark" alt="Currently learning Go, Rust, Ruby, Kotlin and Swift" />
+
+**MODERN FRAMEWORKS & BACKEND**
+
+<img src="https://skillicons.dev/icons?i=nextjs,vue,svelte,tailwind,nestjs,fastapi,spring,dotnet&theme=dark" alt="Exploring Next.js, Vue, Svelte, Tailwind CSS, NestJS, FastAPI, Spring Boot and .NET" />
+
+**DATABASES, CLOUD & DEVOPS**
+
+<img src="https://skillicons.dev/icons?i=postgres,redis,kubernetes,azure,terraform,githubactions&theme=dark" alt="Exploring PostgreSQL, Redis, Kubernetes, Azure, Terraform and GitHub Actions" />
+
+**AI & MACHINE LEARNING**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="Exploring PyTorch, TensorFlow and scikit-learn" />
+
+</div>
+
+- **AI ecosystem:** Hugging Face, LangChain and Jupyter
+- **Cloud-native development:** Docker, Kubernetes, CI/CD and infrastructure as code
+- **Modern full-stack:** TypeScript, Next.js and API development
+
+## <img src="https://img.shields.io/badge/04-CURRENT%20FOCUS-7B2FF7?style=for-the-badge&labelColor=161B22" alt="04 Current focus" />
 
 <div align="center">
 
